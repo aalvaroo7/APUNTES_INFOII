@@ -1,4 +1,4 @@
-## Ejercicios Clase 26/09/2024
+Ejercicios Clase 26/09/2024
 
 ### Ejercicio 1
 
@@ -6,11 +6,13 @@ Crea un título de nivel 1 (`<h1>`) que diga "Mi Página de Práctica". Usa el a
 
 ### Ejercicio 2
 
-Crea una sección con la etiqueta `<div>`. Dentro de esta sección, incluye un párrafo de texto cualquiera. Aplica la clase `seccion-principal` a la etiqueta `<div>` para poder diferenciarla.
+Crea una sección con la etiqueta `<div>`. Dentro de esta sección, incluye un párrafo de texto cualquiera.
+ Aplica la clase `seccion-principal` a la etiqueta `<div>` para poder diferenciarla.
 
 ### Ejercicio 3
 
-Añade un párrafo dentro del `<div>` anterior que tenga el atributo `lang="en"` y que contenga un texto en inglés. Cambia la dirección del texto para que se muestre de derecha a izquierda.
+Añade un párrafo dentro del `<div>` anterior que tenga el atributo `lang="en"` y que contenga un texto en inglés.
+Cambia la dirección del texto para que se muestre de derecha a izquierda.
 
 ### Ejercicio 4
 
@@ -25,6 +27,6 @@ Agrega un formulario (`<form>`):
 
 Usa el atributo `title` en el campo "Correo" para mostrar un mensaje emergente que diga "Introduce tu correo electrónico".
 
-### Ejercicio 6(el unico que me falta)
+### Ejercicio 6(preguntar en clase)
 
 Crea dos enlaces al final de la página, uno para "Volver al Inicio" y otro para "Ver Más Información", utilizando `tabindex` para definir

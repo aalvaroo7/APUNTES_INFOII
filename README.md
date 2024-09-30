@@ -60,10 +60,12 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 - `lang="en"` es un atributo que se usa para indicar el idioma del texto, en este caso, en inglés.
 - `dir="rtl"` es un atributo que se usa para indicar la dirección del texto, en este caso, de derecha a izquierda. Ambos atributos se usan en el párrafo y antes de escribir el texto.
 - `<form>` es un formulario que se usa para recopilar información del usuario. Dentro del formulario se pueden poner campos de texto, botones, casillas de verificación y otros elementos.
-- `<input>` es un campo de texto.
+- `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
+-` <input>` es un campo de texto.
+- `title="msg":` Este atributo proporciona una herramienta emergente que aparece 
+cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
 - `<textarea>` es un campo de texto de varias líneas.
 - `<br>` es un salto de línea.
-- `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
 - `<button>` es un botón.
 - `<button type="submit">` es un botón de envío.
   <a href="#titulo-principal" tabindex="4">Volver al Inicio</a>: 
