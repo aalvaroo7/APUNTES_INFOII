@@ -25,6 +25,6 @@ Agrega un formulario (`<form>`):
 
 Usa el atributo `title` en el campo "Correo" para mostrar un mensaje emergente que diga "Introduce tu correo electrónico".
 
-### Ejercicio 6
+### Ejercicio 6(el unico que me falta)
 
 Crea dos enlaces al final de la página, uno para "Volver al Inicio" y otro para "Ver Más Información", utilizando `tabindex` para definir
