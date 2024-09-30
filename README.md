@@ -66,7 +66,12 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 - `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
 - `<button>` es un botón.
 - `<button type="submit">` es un botón de envío.
-
+  <a href="#titulo-principal" tabindex="4">Volver al Inicio</a>: 
+- Este enlace apunta al elemento con el id "titulo-principal" y tiene un tabindex de 4, lo que significa que será el cuarto elemento 
+en recibir el foco cuando se navega usando la tecla Tab.
+  <a href="more-info.html" tabindex="5">Ver Más Información</a>: 
+- Este enlace apunta a una página llamada more-info.html y tiene un tabindex de 5, 
+lo que significa que será el quinto elemento en recibir el foco cuando se navega usando la tecla Tab.
 ### Atributos de los campos de entrada
 
 - `type="email"` especifica que el campo de entrada es para direcciones de correo electrónico.
