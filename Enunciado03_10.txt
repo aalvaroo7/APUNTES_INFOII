@@ -5,7 +5,7 @@ Crea una página web de "Reserva de Eventos" con las siguientes características
 El sistema debe organizar el contenido web utilizando los siguientes elementos HTML
 semánticos, asegurando una estructura clara y navegable.
 • <header>,<nav>,<main>,<section>,<article>,<footer>
-•
+
 2. Formulario de Reserva
 El formulario permitirá a los usuarios registrarse para un evento y debe ser accesible desde la
 sección <main>. Este formulario incluirá los siguientes campos y validaciones:
