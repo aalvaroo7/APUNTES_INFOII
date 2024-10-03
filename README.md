@@ -53,7 +53,7 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 ### `<head>`
 
 - `<meta charset="UTF-8">` indica que el documento está en UTF-8, que es un estándar de codificación de caracteres.
-- `<meta>` es un contenedor de metadatos. Los metadatos son datos que describen otros datos y sirven para dar información sobre la página web.
+- `<meta>` es un contenedor de metadatos. Los metadatos son datos que describen otros datos y sirven para dar información sobre la página web. Y para poscionar la página web en los buscadores.
 - `<title>` es el título de la página web.
 
 ### `<body>`
@@ -64,13 +64,19 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 - `<p>` es un párrafo.
 - `lang="en"` es un atributo que se usa para indicar el idioma del texto, en este caso, en inglés.
 - `dir="rtl"` es un atributo que se usa para indicar la dirección del texto, en este caso, de derecha a izquierda. Ambos atributos se usan en el párrafo y antes de escribir el texto.
+
 - `<form>` es un formulario que se usa para recopilar información del usuario. Dentro del formulario se pueden poner campos de texto, botones, casillas de verificación y otros elementos.
+-  `<action>` es un atributo que se usa en el formulario para indicar la URL a la que se enviarán los datos del formulario.
 - `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
+- `for="correo"` es un atributo que se usa en la etiqueta para asociarla con un campo de texto.
+- `type="email"` es un atributo que se usa en el campo de texto para especificar que se espera una dirección de correo electrónico.
 -` <input>` es un campo de texto.
 - `title="msg":` Este atributo proporciona una herramienta emergente que aparece 
 cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
 - `<textarea>` es un campo de texto de varias líneas.
 - `<br>` es un salto de línea.
+
+
 - `<button>` es un botón.
 - `<button type="submit">` es un botón de envío.
   <a href="#titulo-principal" tabindex="4">Volver al Inicio</a>: 
@@ -79,6 +85,8 @@ en recibir el foco cuando se navega usando la tecla Tab.
   <a href="more-info.html" tabindex="5">Ver Más Información</a>: 
 - Este enlace apunta a una página llamada more-info.html y tiene un tabindex de 5, 
 lo que significa que será el quinto elemento en recibir el foco cuando se navega usando la tecla Tab.
+- `<style>` se usa para dar estilo a la página web.
+
 ### Atributos de los campos de entrada
 
 - `type="email"` especifica que el campo de entrada es para direcciones de correo electrónico.
