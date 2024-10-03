@@ -21,11 +21,16 @@
         ```bash
         git remote add origin <URL>
         ```
+   
     - Subir los cambios al repositorio remoto:
         ```bash
         git push -u origin master
         ```
-
+el git push se de debe hacer despues de(en caso de ya haber añadido lo local al repositorio remoto):
+-git innit
+-git add (archivo a añadir)
+-git commit -m "mensaje"
+-git push -u origin master
 ## Apuntes sobre la estructura de una página web (a día 30/09/2024)
 
 Las páginas web están compuestas por:
