@@ -1,4 +1,8 @@
-# HTLM https://www.w3schools.com/html/default.asp
+# HTLM  WEBS 
+
+https://www.w3schools.com/html/default.asp
+
+https://developer.mozilla.org/en-US/docs/Web/API/Request/body
 
 ## Cómo gestionar un repositorio local con Git y subirlo a la nube
 
