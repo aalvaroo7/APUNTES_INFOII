@@ -136,6 +136,16 @@ cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
 
 - `<button type="submit">` es un botón de envío.
 
+##### Menús desplegables
+- `<select>` es un menú desplegable.
+- `<option>` es una opción en un menú desplegable.
+- `selected` es un atributo que se usa en la opción seleccionada por defecto en un menú desplegable.
+- `disabled` es un atributo que se usa en una opción deshabilitada en un menú desplegable.
+- `multiple` es un atributo que se usa en un menú desplegable para permitir la selección de varias opciones.
+- `size="3"` es un atributo que se usa en un menú desplegable para especificar el número de opciones visibles.
+- `optgroup` es un grupo de opciones en un menú desplegable.
+
+
 #### Atributos de los campos de entrada(Formularios)
 
 - `type="email"` especifica que el campo de entrada es para direcciones de correo electrónico.
