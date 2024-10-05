@@ -56,11 +56,17 @@ Las páginas web están compuestas por:
 Todos ellos se cierran en el orden en el que se abren (importante).
 ```
 
+
+
+
 ### `<head>`
 
 - `<meta charset="UTF-8">` indica que el documento está en UTF-8, que es un estándar de codificación de caracteres.
 - `<meta>` es un contenedor de metadatos. Los metadatos son datos que describen otros datos y sirven para dar información sobre la página web. Y para poscionar la página web en los buscadores.
 - `<title>` es el título de la página web.
+
+
+
 
 ### `<body>`
 
@@ -110,6 +116,8 @@ Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLio
 
 - **HEAD**: es la cabecera de la página web.
 - **BODY**: es el cuerpo de la página web.
+- **DOCTYPE HTML**: es la declaración del tipo de documento.
+- **HTML**: es el contenedor de toda la página web.
 
 El `<head>` se usa para poner el título de la página web, indicar cómo debe mostrarse la página web y qué archivos se deben cargar para su correcto funcionamiento.
 
