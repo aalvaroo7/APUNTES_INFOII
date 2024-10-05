@@ -23,11 +23,25 @@
 
     <p>
     <label for="Email">Email: </label>
-    <input type="email" id="email" name="email" tabindex="5" required>
+    <input type="email" id="email" name="email" tabindex="3" required>
     </p>
 
     <p>
         <label for="fecha">Fecha del evento:</label>
-        <input type="date" id="fecha" name="fecha" tabindex="3" required>
+        <input type="date" id="fecha" name="fecha" tabindex="4" required>
+    </p>
+
+    <p>
+        <label for="hora">Hora del evento:</label>
+        <input type="time" id="hora" name="hora" tabindex="5" required>
+    </p>
+
+    <p>
+        <label for="selectEvento">Tipo de evento:</label>
+        <select id="selectEvento" name="selectEvento" tabindex="6" required>
+            <option value="concierto">Concierto</option>
+            <option value="teatro">Teatro</option>
+            <option value="cine">Cine</option>
+            <option value="deportes">Deportes</option>
     </p>
 </form>
