@@ -96,6 +96,28 @@ Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLio
    action="https://www.example.com/submit-form": Especifica la URL a la que se enviarán los datos del formulario.
    method="post": Especifica el método HTTP a utilizar para enviar los datos (en este caso, POST).
 
+HAY DOS TIPOS DE WEBS A LA HORA DE ENVIAR DATOS:
+URL relativa:
+```
+<form action="/submit-form" method="post">
+    <!-- Campos del formulario -->
+</form>
+```
+
+URL de servidor local:
+
+```
+<form action="http://localhost:3000/submit-form" method="post">
+    <!-- Campos del formulario -->
+</form>
+```
+
+| URL RELATIVA  | URL DE SERVIDOR LOCAL | URL ABSOLUTA  |
+|---------------|-----------------------|---------------|
+| Se utiliza para enviar datos a una ruta relativa dentro del mismo dominio. | Se utiliza para enviar datos a una URL completa, que puede estar en el mismo dominio o en un dominio diferente.        | Se utiliza para enviar datos a un servidor local durante el desarrollo.  |
+Para la mayoría de los casos, especialmente en aplicaciones que se desplegarán en múltiples entornos, una URL relativa es la opción más óptima.
+
+
 - `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
 
 - `for="correo"` es un atributo que se usa en la etiqueta para asociarla con un campo de texto.
