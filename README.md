@@ -37,7 +37,9 @@ el git push se de debe hacer despues de(en caso de ya haber añadido lo local al
 -git add (archivo a añadir)
 -git commit -m "mensaje"
 -git push -u origin master
-## Apuntes sobre la estructura de una página web (a día 30/09/2024)
+
+
+## Apuntes sobre la estructura de una página web en HTML
 
 Las páginas web están compuestas por:
 
@@ -56,7 +58,15 @@ Las páginas web están compuestas por:
 Todos ellos se cierran en el orden en el que se abren (importante).
 ```
 
+- **HEAD**: es la cabecera de la página web.
+- **BODY**: es el cuerpo de la página web.
+- **DOCTYPE HTML**: es la declaración del tipo de documento.
+- **HTML**: es el contenedor de toda la página web.
+- **LANG**: es el atributo que se usa para indicar el idioma del texto.
 
+### Comentarios
+
+Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLion y otros lenguajes de programación. Se abre y se cierra con `<>`.
 
 
 ### `<head>`
@@ -76,7 +86,10 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 - `<p>` es un párrafo.
 - `lang="en"` es un atributo que se usa para indicar el idioma del texto, en este caso, en inglés.
 - `dir="rtl"` es un atributo que se usa para indicar la dirección del texto, en este caso, de derecha a izquierda. Ambos atributos se usan en el párrafo y antes de escribir el texto.
+- `<style>` se usa para dar estilo a la página web.
 
+
+### Formularios
 - `<form>` es un formulario que se usa para recopilar información del usuario. Dentro del formulario se pueden poner campos de texto, botones, casillas de verificación y otros elementos.
 -  `<action>` es un atributo que se usa en el formulario para indicar la URL a la que se enviarán los datos del formulario.
 - `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
@@ -87,19 +100,10 @@ Todos ellos se cierran en el orden en el que se abren (importante).
 cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
 - `<textarea>` es un campo de texto de varias líneas.
 - `<br>` es un salto de línea.
-
-
 - `<button>` es un botón.
 - `<button type="submit">` es un botón de envío.
-  <a href="#titulo-principal" tabindex="4">Volver al Inicio</a>: 
-- Este enlace apunta al elemento con el id "titulo-principal" y tiene un tabindex de 4, lo que significa que será el cuarto elemento 
-en recibir el foco cuando se navega usando la tecla Tab.
-  <a href="more-info.html" tabindex="5">Ver Más Información</a>: 
-- Este enlace apunta a una página llamada more-info.html y tiene un tabindex de 5, 
-lo que significa que será el quinto elemento en recibir el foco cuando se navega usando la tecla Tab.
-- `<style>` se usa para dar estilo a la página web.
 
-### Atributos de los campos de entrada
+#### Atributos de los campos de entrada(Formularios)
 
 - `type="email"` especifica que el campo de entrada es para direcciones de correo electrónico.
 - `id="correo"` asigna un identificador único al campo de entrada que se usa para asociarlo con la etiqueta.
@@ -108,18 +112,12 @@ lo que significa que será el quinto elemento en recibir el foco cuando se naveg
 - El atributo `tabindex` en HTML se usa para controlar el orden de tabulación de los elementos al navegar por una página web usando la tecla Tab.
 - `tabindex="2"` establece el orden de tabulación del campo de entrada, determinando el orden en que los elementos reciben el foco cuando el usuario navega a través del formulario usando la tecla Tab.
 
-### Comentarios
 
-Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLion y otros lenguajes de programación. Se abre y se cierra con `<>`.
-
-### Estructura de la página web
-
-- **HEAD**: es la cabecera de la página web.
-- **BODY**: es el cuerpo de la página web.
-- **DOCTYPE HTML**: es la declaración del tipo de documento.
-- **HTML**: es el contenedor de toda la página web.
-
-El `<head>` se usa para poner el título de la página web, indicar cómo debe mostrarse la página web y qué archivos se deben cargar para su correcto funcionamiento.
+### Enlaces
+- `<a href="URL">Link Text</a>`
+<a>: La etiqueta de anclaje.
+href="URL": El atributo href especifica la URL de la página a la que va el enlace.
+Link Text: El texto clicable que aparece al usuario.
 
 
 
