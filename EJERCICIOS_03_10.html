@@ -1,49 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de reserva de eventos con formulario accesible y enlaces a redes sociales.">
+    <meta name="keywords" content="reserva, eventos, formulario, accesibilidad, redes sociales">
+    <meta name="author" content="Tu Nombre">
     <title>Reserva de eventos</title>
 </head>
 
-<header>
-<h1 id="tituloPrincipal">Reserva de eventos</h1>
-</header>
-
 <body>
-<a href="#tituloPrincipal" tabindex="1">Reservas</a> <a href="#tituloPrincipal" tabindex="2">Contacto</a> <a href="#tituloPrincipal" tabindex="3">Sobre nostros</a>
 
-<h2 id="tituloFormulario">Formulario de Reservas</h2>
 
-<form action="/submit-form" method="post">
+<header>
+</header>
+<h1 id="tituloPrincipal">Reserva de eventos</h1>
 
-    <p>
-<label for="nombre">Nombre Completo:</label>
-<input type="text" id="nombre" name="Nombre Completo"  tabindex="2" required >
-    </p>
+<nav>
+<a href="#tituloPrincipal" tabindex="1">Reservas</a>
+<a href="#tituloPrincipal" tabindex="2">Contacto</a>
+<a href="#tituloPrincipal" tabindex="3">Sobre nostros</a>
+</nav>
+</header>
+    <main>
+        <section>
+            <h2 id="tituloFormulario">Formulario de Reservas</h2>
+            <form action="/submit-form" method="post">
+                <p>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" aria-label="Nombre Completo" tabindex="4" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-label="Email" tabindex="5" required>
+                </p>
+                <p>
+                    <label for="fecha">Fecha del evento:</label>
+                    <input type="date" id="fecha" name="fecha" aria-label="Fecha del evento" tabindex="6" required>
+                </p>
+                <p>
+                    <label for="hora">Hora del evento:</label>
+                    <input type="time" id="hora" name="hora" aria-label="Hora del evento" tabindex="7" required>
+                </p>
+                <p>
+                    <label for="selectEvento">Tipo de evento:</label>
+                    <select id="selectEvento" name="selectEvento" aria-label="Tipo de evento" tabindex="8" required>
+                        <option value="" disabled selected>Selecciona un evento</option>
+                        <option value="concierto">Concierto</option>
+                        <option value="conferencia">Conferencia</option>
+                        <option value="taller">Taller</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="aceptarTerminos" name="aceptarTerminos" aria-label="Aceptar términos y condiciones" tabindex="9" required>
+                    <label for="aceptarTerminos">Acepto los términos y condiciones</label>
+                </p>
+                <p>
+                    <label>Tipo de entrada:</label>
+                    <input type="radio" id="vip" name="tipoEntrada" value="VIP" aria-label="Entrada VIP" tabindex="10" required>
+                    <label for="vip">VIP</label>
+                    <input type="radio" id="general" name="tipoEntrada" value="General" aria-label="Entrada General" tabindex="11" required>
+                    <label for="general">General</label>
+                </p>
+                <button type="submit" tabindex="12">Enviar Reserva</button>
+            </form>
+        </section>
+        <section>
+            <h2 id="gifIntro">GIF de introducción</h2>
+            <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" alt="GIF de introducción" tabindex="13">
+        </section>
+    </main>
 
-    <p>
-    <label for="Email">Email: </label>
-    <input type="email" id="email" name="email" tabindex="3" required>
-    </p>
 
-    <p>
-        <label for="fecha">Fecha del evento:</label>
-        <input type="date" id="fecha" name="fecha" tabindex="4" required>
-    </p>
-
-    <p>
-        <label for="hora">Hora del evento:</label>
-        <input type="time" id="hora" name="hora" tabindex="5" required>
-    </p>
-
-    <p>
-        <label for="selectEvento">Tipo de evento:</label>
-        <select id="selectEvento" name="selectEvento"  tabindex="6" required>
-            <option value="" selected>Selecciona un evento</option>
-            <option value="concierto">Concierto</option>
-            <option value="teatro">Teatro</option>
-            <option value="cine">Cine</option>
-            <option value="deportes">Deportes</option>
-        </select>
-    </p>
-</form>
+    </form>
+</body>
+</html>
