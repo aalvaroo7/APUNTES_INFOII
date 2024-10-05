@@ -91,16 +91,27 @@ Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLio
 
 ### Formularios
 - `<form>` es un formulario que se usa para recopilar información del usuario. Dentro del formulario se pueden poner campos de texto, botones, casillas de verificación y otros elementos.
+
 -  `<action>` es un atributo que se usa en el formulario para indicar la URL a la que se enviarán los datos del formulario.
+   action="https://www.example.com/submit-form": Especifica la URL a la que se enviarán los datos del formulario.
+   method="post": Especifica el método HTTP a utilizar para enviar los datos (en este caso, POST).
+
 - `<label>` es un campo de texto que se usa para asociar un texto con un campo de texto.
+
 - `for="correo"` es un atributo que se usa en la etiqueta para asociarla con un campo de texto.
+
 - `type="email"` es un atributo que se usa en el campo de texto para especificar que se espera una dirección de correo electrónico.
--` <input>` es un campo de texto.
+- ` <input>` es un campo de texto.
+
 - `title="msg":` Este atributo proporciona una herramienta emergente que aparece 
 cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
+
 - `<textarea>` es un campo de texto de varias líneas.
-- `<br>` es un salto de línea.
+
+- `<br>` es un salto de línea
+
 - `<button>` es un botón.
+
 - `<button type="submit">` es un botón de envío.
 
 #### Atributos de los campos de entrada(Formularios)
