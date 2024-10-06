@@ -88,6 +88,19 @@ Para hacer un comentario se usa `<!-- -->`, similar a como se hace en Java, CLio
 - `dir="rtl"` es un atributo que se usa para indicar la dirección del texto, en este caso, de derecha a izquierda. Ambos atributos se usan en el párrafo y antes de escribir el texto.
 - `<style>` se usa para dar estilo a la página web.
 
+### Estructura Semántica HTML 
+
+- `<header>` es un contenedor para la información de encabezado.
+- `<nav>` es un contenedor para la navegación.
+- `<main>` es un contenedor para el contenido principal.
+- `<section>` es un contenedor para agrupar contenido temático.
+- `<article>` es un contenedor para contenido independiente.
+- `<footer>` es un contenedor para la información de pie de página.
+- `<aside>` es un contenedor para contenido relacionado.
+- `<figure>` es un contenedor para contenido multimedia.
+- `<figcaption>` es un contenedor para la leyenda de una figura.
+- `<address>` es un contenedor para la información de contacto.
+
 
 ### Formularios
 - `<form>` es un formulario que se usa para recopilar información del usuario. Dentro del formulario se pueden poner campos de texto, botones, casillas de verificación y otros elementos.
