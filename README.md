@@ -175,5 +175,18 @@ cuando el usuario pasa el cursor sobre el campo de entrada "Correo"
 href="URL": El atributo href especifica la URL de la página a la que va el enlace.
 Link Text: El texto clicable que aparece al usuario.
 
+### Listas
+
+- `<ul>`: es una lista desordenada. Se muestran generalmente con viñetas.
+- `<li>`: es un elemento de lista. Define cada elemento dentro de la lista.
+- `<ol>`: es una lista ordenada.
+
+### Videos en HTML
+
+- `<video>`: La etiqueta se usa para incrustar el video.
+- `controls`: El atributo habilita los controles de video (reproducir, pausar, etc.).
+- `<source>`: La etiqueta especifica el archivo de video.
+- `<track>`: La etiqueta proporciona subtítulos para usuarios con discapacidades auditivas.
+
 
 
