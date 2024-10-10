@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="#" method="post">
+    <label for="Nombrecompleto">Nombre Completo:</label>
+    <input type="text" id="Nombrecompleto" name="Nombrecompleto" aria-label="Nombre Completo" tabindex="1" required>
+
+    <label for="fechanac"> Fecha de nacimiento</label>
+    <input type="date" id="fechanac" name="fechanac" aria-label="Fecha de nacimiento" tabindex="2" required>
+
+    <label for="horacita">Hora de la cita</label>
+    <input type="time" id="horacita" name="horacita" aria-label="Hora de la cita" tabindex="3" required>
+
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" aria-label="Edad" tabindex="4" required>
+
+    <label for="satisfaccion">Nivel de satisfacción</label>
+    <input type="range" id="satisfaccion" name="satisfaccion" aria-label="Nivel de satisfacción" tabindex="5" required>
+    <!-- esto es lo que me he reeganchado lo de antes falta -->
+    <select id="selecgenero" name="selecgenero" aria-label="Género" tabindex="6" required>
+        <option value="" disabled selected>Selecciona un género</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+    </select>
+<!--terminar esto en casa-->
+    <label for="prefCContacto">Preferencia de contacto</label>
+    <input type="text" id="prefCContacto" name="prefCContacto" aria-label="Preferencia de contacto" tabindex="7" required list="opciones-contacto" placeholder="selecciona o escribe en texto plano">
+
+    <datalist id="opciones contacto">
+        <option value="Correo electronico">
+        <option value="Telefono">
+        <option value="WhatsApp">
+    </datalist>
+
+</form>
+</body>
+</html>
