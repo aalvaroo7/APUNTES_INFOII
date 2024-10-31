@@ -1,0 +1,42 @@
+
+h1 {
+    color: blue;
+}
+.secondary {
+    color: red;
+}
+#main {
+    font-family: "Arial Black";
+}
+body {
+    background-color: lightgray;
+}
+
+.destacado {
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid red;
+   background-color: yellow;
+    color: blue;
+}
+.destacado p {
+    color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+    color: blue;
+}
+
+#parrafofuera1 {
+    color: blue;
+}
+
+#parrafofuera2 {
+    color: blue;
+    border: 2px solid red;
+}
+
+#BotonPrincipal {
+    background-color: green;
+}
