@@ -1,42 +1,21 @@
-
-h1 {
-    color: blue;
-}
-.secondary {
-    color: red;
-}
-#main {
-    font-family: "Arial Black";
-}
-body {
+html, body {
     background-color: lightgray;
 }
-
-.destacado {
-    font-weight: bold;
-    font-size: 1.2em;
-    border: 2px solid red;
-   background-color: yellow;
+p {
     color: blue;
 }
-.destacado p {
-    color: blue;
+.highlight {
+    border: 1px red solid;
 }
-
-.amarillo {
-    background-color: yellow;
-    color: blue;
-}
-
-#parrafofuera1 {
-    color: blue;
-}
-
-#parrafofuera2 {
-    color: blue;
-    border: 2px solid red;
-}
-
-#BotonPrincipal {
+button[data-type="primary"] {
     background-color: green;
+}
+#title{
+    font-size: 24px
+}
+li,ul{
+    margin-top: 20px;
+}
+div > p {
+    background-color: yellow;
 }
