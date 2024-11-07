@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b3b3b3;
+}
+
+.contenedor {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilos para las cajas */
+.caja {
+    width: 30%;
+    padding: 20px 20px 20px 20px;/*  arriba,  derecha, abajo, izquierda */
+    text-align: center;
+    background-color: #fff;
+    margin: auto;
+}
+
+/* Caja 1 */
+.caja1 {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* Caja 2 */
+.caja2 {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+/* Caja 3 */
+.caja3 {
+    border: 2px solid blue;
+    border-radius: 20px;
+}

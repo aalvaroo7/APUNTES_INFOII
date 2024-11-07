@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #b3d9ff;
+    padding: 10px 20px;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    width: 80%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.contenido {
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.barra-lateral {
+    background-color: #ffcccc;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #ccffcc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
